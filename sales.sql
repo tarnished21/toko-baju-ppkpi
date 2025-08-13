@@ -1,0 +1,1 @@
+SELECT * FROM toko_baju.sales;
