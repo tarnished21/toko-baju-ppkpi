@@ -1,0 +1,152 @@
+body {
+  background-color: #FFE0B2	;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+
+}
+.li {
+    padding-right: 30px;
+      padding-left: 30px;
+
+}
+#li1 {
+  padding-right: 900px;
+}
+a {
+  color: #2E2E2E	;
+  transition: ease-in 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #FFB74D	;
+}
+
+.highlight1 {
+  position: relative;
+  margin-top: 20px;
+  width: 318.67px;
+  height: 438.67px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+
+}
+.preview1 {
+  position: relative;
+  margin-top: 60px;
+  width: 218.67px;
+  height: 338.67px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+    background-color: #FFF8ED	;
+    
+
+}
+.preview1:hover {
+  .overlay-text1 {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+  }
+  .highlight1 {
+    width: 218px;
+    height: 338px;
+    transition: ease-in-out .3s;
+  }
+}
+.video-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.5);
+}
+
+.overlay-text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 230px;
+}
+
+.overlay-text1 {
+  position: relative;
+  z-index: 1;
+  color: white; /* ubah dari white agar terlihat */
+  padding: 20px;
+  text-align: center;
+  margin-top: 220px;
+  opacity: 0;
+}
+
+.h2-main {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.p-main {
+  font-size: 1rem;
+}
+
+.overlay-text .btn {
+  margin-top: 15px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.gambar1 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.pic1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.h2-overlay {
+  font-size: 5px;
+}
+.overlay-text1 a {
+  color: white;
+  transition: ease-in-out 0.3s;
+  
+  
+}
+.overlay-text1 a:hover {
+  color: #FFB74D	;
+
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+a.nav-skill {
+  color: red;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.section2 {
+  flex: 0 1 300px;
+}
